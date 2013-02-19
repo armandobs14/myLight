@@ -1,0 +1,34 @@
+* {
+	margin: 0; padding: 0;
+	list-style-type: none;
+}
+#container{
+position:absolute;
+top:70px;
+}
+
+#myContent li {
+	width: 200px;
+    padding: 0;
+}
+
+#myContent li:hover{
+    z-index: 1;
+    padding: 0;
+    box-shadow: 0 0 10px #000;
+    
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    
+    transition: 0.1s;
+    -moz-transition: 0.1s; /* Firefox 4 */
+    -webkit-transition: 0.1s; /* Safari and Chrome */
+    -o-transition: 0.1s; /* Opera */
+}
+
+#myContent li img{
+    margin: 0;
+}

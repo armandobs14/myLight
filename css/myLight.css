@@ -1,0 +1,80 @@
+#myLight_Container{
+	background: rgba(0,0,0,0.95);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.navbar{
+	z-index: 1;
+	position: absolute;	
+	font-size: 80px;
+	font-weight:bold;
+	float: left;
+	color: #fff;
+}
+
+.navbar #myLight_prev{
+	float: left;
+	cursor: pointer;
+	opacity:0.5;
+}
+
+.navbar #myLight_next{
+	float:right;
+	cursor: pointer;
+	opacity:0.5;
+}
+
+#myLight_prev:hover,#myLight_next:hover{
+	opacity:1; 
+}
+
+
+
+#myLight_Content{
+	max-width: 940px;
+	padding: 5px;
+	background: #fff;
+	margin: 50px auto;
+}
+
+#myLight_imageContainer{
+	float: left;
+}
+
+#myLight_socialContainer{
+	margin:-40px 10px 0 0;
+	float: right;
+	position:relative;
+	z-index: 1;
+}
+#myLight_imageContainer img{
+	max-width: 940px;
+	display:block;
+}
+
+#myLight_close{
+	background: #fff url('../images/close.png') no-repeat;
+	background-size: 30px;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin: -30px -30px 0 0;
+	cursor: pointer;
+}
+
+#comment{
+	opacity: 0.5;
+	cursor: pointer;
+}
+#comment:hover{
+	opacity: 1;
+}
+
+
+
+.fb-comments span{
+	height: 300px;
+}
