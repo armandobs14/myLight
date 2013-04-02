@@ -1,15 +1,20 @@
 * {
-	margin: 0; padding: 0;
-	list-style-type: none;
+    margin: 0; padding: 0;
+    list-style-type: none;
 }
 #container{
-position:absolute;
-top:70px;
+    position:relative;
+    top:70px;
 }
 
 #myContent li {
 	width: 200px;
     padding: 0;
+
+    transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in; 
+    -o-transition: all 0.1s ease-in; 
 }
 
 #myContent li:hover{
@@ -17,16 +22,11 @@ top:70px;
     padding: 0;
     box-shadow: 0 0 10px #000;
     
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    
-    transition: 0.1s;
-    -moz-transition: 0.1s; /* Firefox 4 */
-    -webkit-transition: 0.1s; /* Safari and Chrome */
-    -o-transition: 0.1s; /* Opera */
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 #myContent li img{
